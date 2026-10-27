@@ -11,6 +11,8 @@
   <img src="https://img.shields.io/github/followers/Keormel?style=flat-square&color=203a43&label=Followers" alt="Followers" />
 </p>
 
+<a href="https://t.me/keormel"><img src="https://img.shields.io/badge/Telegram-@keormel-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
+
 </div>
 
 ---
@@ -27,6 +29,8 @@ class Keormel:
     def say_hi(self):
         print("Спасибо, что заглянул! Открыт к интересным проектам и коллаборациям.")
 ```
+
+📬 Связаться со мной: [**@keormel** в Telegram](https://t.me/keormel)
 
 - 🔭 Сейчас работаю над **SafeCall** — защитой от телефонных мошенников без прослушки звонков
 - 🗜️ Реализовал Huffman, LZW и RLE с нуля в **FileCompression**
