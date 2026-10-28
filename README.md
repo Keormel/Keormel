@@ -12,6 +12,7 @@
 </p>
 
 <a href="https://t.me/keormel"><img src="https://img.shields.io/badge/Telegram-@keormel-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
+<a href="https://keormel.xyz"><img src="https://img.shields.io/badge/Портфолио-keormel.xyz-2c5364?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
 
 </div>
 
@@ -34,8 +35,9 @@ class Keormel:
 
 - 🔭 Сейчас работаю над **SafeCall** — защитой от телефонных мошенников без прослушки звонков
 - 🗜️ Реализовал Huffman, LZW и RLE с нуля в **FileCompression**
+- 🔍 Пишу на C++ и WinAPI форензик-агент **Fusion Forensics** для античита Garry's Mod
+- 🌐 Делаю сайты на Next.js и React, например для Minecraft-сервера **Orsted Project**
 - 🤖 Пишу Telegram-ботов с LLM под капотом
-- 📚 Учусь и закрываю лабы по ООП на C++
 
 ---
 
@@ -53,11 +55,11 @@ class Keormel:
 
 **Фронтенд и мобилка**
 
-<img src="https://skillicons.dev/icons?i=react,vite,flutter,androidstudio&theme=dark" alt="Frontend and mobile" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,flutter,androidstudio&theme=dark" alt="Frontend and mobile" />
 
 **Инструменты**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,arch&theme=dark" alt="Tools" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,arch,windows&theme=dark" alt="Tools" />
 
 </div>
 
@@ -68,23 +70,21 @@ class Keormel:
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/Keormel/SafeCall-1">SafeCall</a></h3>
-      <p>Android-приложение проверяет входящий номер по локальной базе, а сервер собирает жалобы пользователей в risk score и кампании мошенников и рассылает дельта-обновления.</p>
-      <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
       <h3>🗜️ <a href="https://github.com/Keormel/FileCompression">FileCompression</a></h3>
       <p>Сжатие и передача файлов в локальной сети. Huffman, LZW и RLE написаны с нуля, свой контейнер <code>.fcmp</code> с проверкой SHA-256, ссылки и QR-коды для скачивания. Работает даже на Raspberry Pi.</p>
       <p>
         <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
         <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔍 <a href="https://github.com/Keormel/CheckForFusionRP">Fusion Forensics</a></h3>
+      <p>Агент криминалистической телеметрии для проверки игроков на серверах Garry's Mod. Ищет следы читов в ОС: Prefetch, реестр, память процесса, Lua-скрипты, драйверы, автозапуск. Собирает подписанный JSON-отчёт, а вердикт выносит сервер.</p>
+      <p>
+        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+        <img src="https://img.shields.io/badge/WinAPI-0078D6?style=flat-square&logo=windows&logoColor=white" />
+        <img src="https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white" />
       </p>
     </td>
   </tr>
@@ -99,12 +99,36 @@ class Keormel:
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>⭐ <a href="https://github.com/Keormel/SellStarsBot">SellStarsBot</a></h3>
-      <p>Telegram-магазин на Pyrogram: меню на inline-кнопках, промокоды, рассылка новостей всем клиентам из админки.</p>
+      <h3>🌐 <a href="https://github.com/Keormel/bio-info">bio-info</a></h3>
+      <p>Моё портфолио — <a href="https://keormel.xyz">keormel.xyz</a>. SPA на React 19 и Vite с SEO-постобработкой после сборки, задеплоено на Vercel.</p>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/Pyrogram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
-        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⛏️ <a href="https://github.com/Keormel/Orstedwebsite">Orsted Project</a></h3>
+      <p>Сайт Minecraft-сервера: лендинг, лор и карта, классы с гайдами, правила с поиском, новости, календарь ивентов. Контент в Strapi, онлайн сервера в реальном времени, интеграция с Discord.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/Strapi-4945FF?style=flat-square&logo=strapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/Keormel/SafeCall-1">SafeCall</a></h3>
+      <p>Android-приложение проверяет входящий номер по локальной базе, а сервер собирает жалобы пользователей в risk score и кампании мошенников и рассылает дельта-обновления.</p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
       </p>
     </td>
   </tr>
